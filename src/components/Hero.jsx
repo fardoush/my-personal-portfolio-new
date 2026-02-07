@@ -5,7 +5,7 @@ import { SiReact, SiTailwindcss, SiJavascript, SiFigma } from "react-icons/si";
 const Hero = () => {
   return (
     <section className="min-h-screen bg-white dark:bg-[#08080a] text-gray-900 dark:text-white flex items-center overflow-hidden transition-colors duration-500 pt-16 sm:pt-0">
-      <div className="max-w-7xl mx-auto px-6 py-12 sm:py-20 w-full grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <div className="lg:container w-full mx-auto px-6 py-12 sm:py-20 w-full grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         {/* --- LEFT CONTENT --- */}
         <div className="order-2 lg:order-1 text-center lg:text-left relative z-10">
           <div className="inline-block px-4 py-1 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-indigo-600 dark:text-indigo-400 text-[10px] font-bold mb-6 tracking-[0.2em] uppercase">

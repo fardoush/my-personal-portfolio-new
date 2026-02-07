@@ -49,3 +49,19 @@
   animation: float 6s ease-in-out infinite;
 }
 /* hero animation end  */
+
+
+/* Start Skill  */
+/* Glassmorphism subtle animation */
+.glass-card {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.light .glass-card {
+  background: rgba(0, 0, 0, 0.02);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
