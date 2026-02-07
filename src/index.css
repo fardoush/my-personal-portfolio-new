@@ -1,0 +1,51 @@
+@import "tailwindcss";
+/* @plugin "daisyui"; */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  body {
+    @apply bg-[#08080a] text-white overflow-x-hidden;
+  }
+}
+
+
+* {
+  font-family: "Inter", sans-serif;  /* changed from Sora to Inter */
+  box-sizing: border-box;
+}
+
+/* hero animation start  */
+/* Orbit Animation: Icons-ke image-er charpashe ghoranor jonno */
+@keyframes orbit {
+  from { transform: rotate(0deg) translateX(160px) rotate(0deg); }
+  to { transform: rotate(360deg) translateX(160px) rotate(-360deg); }
+}
+
+/* Mobile-e radius komiye 110px kora hoyeche jate screen-er baire na jay */
+@media (max-width: 640px) {
+  @keyframes orbit {
+    from { transform: rotate(0deg) translateX(110px) rotate(0deg); }
+    to { transform: rotate(360deg) translateX(110px) rotate(-360deg); }
+  }
+}
+
+.animate-orbit {
+  animation: orbit 15s linear infinite;
+  position: absolute;
+}
+
+/* Delay logic: Icon-gulo jate ekta arektar upor overlap na hoy */
+.delay-1 { animation-delay: 0s; }
+.delay-2 { animation-delay: -3.75s; }
+.delay-3 { animation-delay: -7.5s; }
+.delay-4 { animation-delay: -11.25s; }
+
+/* Image-ke upore niche bhashanor jonno */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+}
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+/* hero animation end  */
