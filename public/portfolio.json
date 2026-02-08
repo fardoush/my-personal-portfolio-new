@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "title": "Portfolio Website",
+    "category": "Web App",
+    "img": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80&w=800",
+    "description": "A comprehensive CRM solution for doctors to manage appointments and patient history.",
+    "tech": ["React", "Tailwind"],
+    "liveLink": "",
+    "gitLink": "",
+    "details": "lorem   "
+  },
+  {
+    "id": 2,
+    "title": "E-Commerce Dashboard",
+    "category": "Web App",
+    "img": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800",
+    "description": "Modern analytics dashboard with real-time sales tracking.",
+    "tech": ["React", "Tailwind", "Node.js"],
+    "liveLink": "https://your-live-link.com",
+    "gitLink": "https://github.com/your-repo",
+    "details": "An enterprise-level dashboard that handles over 10k daily transactions. It features dynamic charts using Recharts, role-based access control, and a dark/light mode toggle. The backend is optimized with Redis for faster data fetching."
+  }
+]

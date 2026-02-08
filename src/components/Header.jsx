@@ -31,7 +31,7 @@ const Header = () => {
             : "bg-transparent py-5 md:py-6"
         }`}
       >
-        <div className="lg:container w-full mx-auto px-4 sm:px-6 md:px-12 flex justify-between items-center">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-12 flex justify-between items-center">
           {/* Logo & Hire Button */}
           <div className="flex items-center gap-3 sm:gap-4">
             <div className="group cursor-pointer">

@@ -1,0 +1,54 @@
+{
+  "experience": [
+    {
+      "id": 1,
+      "role": "Software Engineer",
+      "company": "OrangeToolz",
+      "location": "Uttara, Dhaka",
+      "duration": "Nov 2022 - DEC 2025",
+      "type": "Full-time",
+      "description": "",
+      "achievements": [
+        "many dental website wordpress",
+        "Business portfolio website",
+        "Dashboard design"
+      ],
+      "skills": ["React","CSS3", "Bootstrap", "Material UI", "Wordpress","JS"]
+    },
+    {
+      "id": 2,
+      "role": "Front End Developer & RND",
+      "company": "ExcelIT",
+      "location": "Mogbazar, Dhaka",
+      "duration": "Jun 2021 - SEP 2022",
+      "type": "Full-time",
+      "description": "Developed and maintained mobile applications focusing on performance optimization and user experience.",
+      "achievements": [
+        "Ecommerce",
+        "Portfolio Website",
+        "Dashboard"
+      ],
+      "skills": ["HTML", "CSS3", "Bootstrap", "Javascript", "JQuery","React"]
+    }
+  ],
+  "education": [
+    {
+      "id": 1,
+      "degree": "B.Sc. in Computer Science",
+      "institution": "Uttara University",
+      "location": "Dhaka, Bangladesh",
+      "duration": "2016-2019",
+      "result": "3.55",
+      "description": "Focused on Software Engineering."
+    },
+    {
+      "id": 2,
+      "degree": "M.Sc. in Computer Science",
+      "institution": "Uttara University",
+      "location": "Dhaka, Bangladesh",
+      "duration": "2024-2025",
+      "result":"3.49",
+      "description": "Focused on Software Engineering."
+    }
+  ]
+}
