@@ -43,11 +43,11 @@ const ContactInfo = () => {
           <div className="flex items-center gap-4 mb-4">
             <span className="h-[2px] w-12 bg-indigo-500"></span>
             <span className="text-indigo-600 dark:text-indigo-400 font-bold tracking-[0.3em] uppercase text-xs">
-              Curated Work
+              contact us
             </span>
           </div>
           <h2 className="text-5xl md:text-7xl font-black text-slate-900 dark:text-white uppercase tracking-tighter">
-            Featured <span className="text-indigo-500">Projects.</span>
+            Contact <span className="text-indigo-500">Info.</span>
           </h2>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-16">

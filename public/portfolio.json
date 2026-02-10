@@ -1,24 +1,46 @@
 [
-  {
+ {
     "id": 1,
-    "title": "Portfolio Website",
+    "title": "Personal Portfolio Website",
     "category": "Web App",
-    "img": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80&w=800",
-    "description": "A comprehensive CRM solution for doctors to manage appointments and patient history.",
-    "tech": ["React", "Tailwind"],
-    "liveLink": "",
-    "gitLink": "",
-    "details": "lorem   "
-  },
-  {
+    "img": "https://i.ibb.co.com/sprWTjhQ/screencapture-fardoush-github-io-JFSS-portfolio-2026-02-10-23-57-40.png",
+    "description": "A high-performance personal portfolio showcasing creative design, professional skills, and project highlights.",
+    "tech": ["HTML5", "CSS3", "Bootstrap", "Javascript", "JQuery"],
+    "liveLink": "https://fardoush.github.io/JFSS-portfolio/", 
+    "gitLink": "https://github.com/fardoush/JFSS-portfolio", 
+    "details": "This is a fully responsive, multi-section personal portfolio website designed to build a strong professional brand. It features a clean and modern UI with smooth scrolling and interactive elements powered by JavaScript and JQuery. Key sections include a dynamic Skill Progress bar, an Education & Experience timeline, a Filterable Project Portfolio, and a functional Contact Form. Built with a focus on performance and accessibility, the site uses Bootstrap's grid system to ensure a seamless experience across all devices, from desktops to mobile phones."
+},
+ {
     "id": 2,
-    "title": "E-Commerce Dashboard",
+    "title": "MediPlus - Doctor Appointment System",
     "category": "Web App",
-    "img": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800",
-    "description": "Modern analytics dashboard with real-time sales tracking.",
-    "tech": ["React", "Tailwind", "Node.js"],
+    "img": "https://i.ibb.co.com/KjvY4RrZ/3c1141d5-32e1-46e0-bff7-811d37c3c6d0.jpg", 
+    "description": "A professional healthcare platform for booking doctor appointments with real-time data visualization.",
+    "tech": ["React", "Tailwind CSS", "Firebase", "Chart.js", "DaisyUI"],
     "liveLink": "https://your-live-link.com",
-    "gitLink": "https://github.com/your-repo",
-    "details": "An enterprise-level dashboard that handles over 10k daily transactions. It features dynamic charts using Recharts, role-based access control, and a dark/light mode toggle. The backend is optimized with Redis for faster data fetching."
-  }
+    "gitLink": "https://github.com/fardoush/mediplus-doctor-appoinment",
+    "details": "MediPlus is a comprehensive medical appointment web application designed to bridge the gap between patients and healthcare providers. The platform features a secure authentication system powered by Firebase (Email/Password & Google Login). Users can browse specialist doctor profiles, check availability, and book appointments seamlessly. It includes a dedicated 'My Bookings' dashboard where appointment data is visually represented using Chart.js for better insights. The UI is crafted with Tailwind CSS and DaisyUI, ensuring a modern, mobile-responsive, and accessible user experience."
+},
+{
+    "id": 3,
+    "title": "The Dragon News - Digital News Portal",
+    "category": "Web App",
+    "img": "https://i.ibb.co.com/Y7tzMqPk/Desktop-2.jpg", 
+    "description": "A dynamic and fully functional digital newspaper platform with real-time news updates and user authentication.",
+    "tech": ["React", "Tailwind CSS", "Firebase", "DaisyUI", "React Router"],
+    "liveLink": "https://your-live-link.com",
+    "gitLink": "https://github.com/fardoush/dragon-news",
+    "details": "The Dragon News is a modern news aggregation platform that provides a seamless reading experience for users. Built with React and styled using Tailwind CSS and DaisyUI, the site features a clean, multi-column layout common in professional news portals. It integrates Firebase for secure user authentication (Login/Register), allowing readers to access personalized content. The application includes dynamic routing for different news categories (International, Sports, Culture, etc.) and individual news details. It is fully responsive, ensuring that readers can stay updated from any device, whether it's a desktop or a smartphone."
+},
+{
+    "id": 4,
+    "title": "Espresso Emporium",
+    "category": "Full-Stack Web App",
+    "img": "https://i.ibb.co.com/7tWP3F3y/screencapture-localhost-5174-2026-02-11-00-14-43.png", 
+    "description": "A premium full-stack coffee inventory platform with MERN stack and real-time CRUD operations.",
+    "tech": ["MongoDB", "Express.js", "React", "Node.js", "Firebase", "Tailwind CSS", "DaisyUI"],
+    "liveLink": "https://your-coffee-live-link.com",
+    "gitLink": "https://github.com/fardoush/coffee-shop-client",
+    "details": "Espresso Emporium is a specialized MERN stack application for managing coffee inventories. It implements a complete CRUD architecture, allowing users to create, read, update, and delete coffee products with instant database synchronization. The backend is powered by Node.js and Express.js with MongoDB as the primary database. For security, it features Firebase Authentication for user Login and Registration. The user interface is highly aesthetic, built with Tailwind CSS and DaisyUI, featuring a responsive gallery and a smooth user experience designed to reflect a high-end coffee shop atmosphere."
+}
 ]

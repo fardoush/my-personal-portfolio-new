@@ -19,7 +19,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-8 mb-12">
           <div className="max-w-xs">
             <h2 className="text-3xl font-black text-slate-900 dark:text-white uppercase tracking-tighter mb-4">
-              Jahanara<span className="text-indigo-500">.</span>
+              Jahanara<span className="text-indigo-500">F.</span>
             </h2>
             <p className="text-slate-500 dark:text-slate-400 text-sm leading-relaxed">
               Modern Full-stack developer specialized in building sleek,
@@ -98,7 +98,7 @@ const Footer = () => {
         {/* Bottom Part: Copyright & Scroll to Top */}
         <div className="mt-8 flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="text-slate-500 dark:text-slate-500 text-xs font-medium">
-            © {new Date().getFullYear()} Jahanara Portfolio. All Rights
+            © {new Date().getFullYear()} Jahanara Fardoush Portfolio. All Rights
             Reserved.
           </p>
 

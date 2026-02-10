@@ -16,10 +16,11 @@ const Header = () => {
   }, []);
 
   const navLinks = [
-    { name: "Services", href: "#services" },
-    { name: "Works", href: "#works" },
-    { name: "Resume", href: "#resume" },
+    { name: "Home", href: "/" },
+    { name: "About", href: "#about" },
     { name: "Skills", href: "#skills" },
+    { name: "Projects", href: "#projects" },
+    { name: "Resume", href: "#resume" },
     { name: "Contact", href: "#contact" },
   ];
   return (
@@ -31,13 +32,16 @@ const Header = () => {
             : "bg-transparent py-5 md:py-6"
         }`}
       >
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-12 flex justify-between items-center">
+        <div className="max-w-7xl mx-auto px-4 md:px-6 md:px-12 flex justify-between items-center">
           {/* Logo & Hire Button */}
           <div className="flex items-center gap-3 sm:gap-4">
             <div className="group cursor-pointer">
-              <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-xl border-2 border-indigo-500 flex items-center justify-center text-white font-black text-xs sm:text-sm bg-indigo-500 shadow-[0_0_20px_rgba(99,102,241,0.3)] group-hover:rotate-12 transition-all duration-300">
+              {/* <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-xl border-2 border-indigo-500 flex items-center justify-center text-white font-black text-xs sm:text-sm bg-indigo-500 shadow-[0_0_20px_rgba(99,102,241,0.3)] group-hover:rotate-12 transition-all duration-300">
                 JF
-              </div>
+              </div> */}
+              <h2 className=" text-xl md:text-3xl font-black text-slate-900 dark:text-white uppercase tracking-tighter">
+              Jahanara<span className="text-indigo-500">F.</span>
+            </h2>
             </div>
             <button className="hidden sm:block px-5 py-2 bg-gradient-to-r from-indigo-600 to-violet-600 text-white text-[11px] font-bold rounded-full hover:scale-105 active:scale-95 transition-all shadow-lg shadow-indigo-500/20">
               HIRE ME ↗
@@ -84,9 +88,12 @@ const Header = () => {
         }`}
       >
         <div className="flex justify-between items-center p-6 sm:p-8 border-b border-gray-100 dark:border-white/5">
-          <span className="text-indigo-600 font-black text-2xl tracking-tighter">
+          {/* <span className="text-indigo-600 font-black text-2xl tracking-tighter">
             JF.
-          </span>
+          </span> */}
+           <h2 className="text-xl font-black text-slate-900 dark:text-white uppercase tracking-tighter">
+              Jahanara<span className="text-indigo-500">F.</span>
+            </h2>
           <button
             onClick={() => setIsOpen(false)}
             className="text-gray-800 dark:text-white p-2.5 bg-gray-100 dark:bg-white/5 rounded-full border border-gray-200 dark:border-white/10"

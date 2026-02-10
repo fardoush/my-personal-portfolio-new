@@ -35,14 +35,14 @@ const ServicesSection = () => {
       <div className="max-w-7xl mx-auto">
         
         {/* Header */}
-        <div className="mb-16">
+          <div className="mb-16">
           <div className="flex items-center gap-4 mb-4">
             <span className="h-[2px] w-12 bg-indigo-500"></span>
             <span className="text-indigo-600 dark:text-indigo-400 font-bold tracking-[0.3em] uppercase text-xs">
               What I Offer
             </span>
           </div>
-          <h2 className="text-5xl md:text-6xl font-black text-slate-900 dark:text-white uppercase tracking-tighter">
+          <h2 className="text-5xl md:text-7xl font-black text-slate-900 dark:text-white uppercase tracking-tighter">
             My <span className="text-indigo-500">Services.</span>
           </h2>
         </div>
