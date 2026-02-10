@@ -43,9 +43,9 @@ const Header = () => {
               Jahanara<span className="text-indigo-500">F.</span>
             </h2>
             </div>
-            <button className="hidden sm:block px-5 py-2 bg-gradient-to-r from-indigo-600 to-violet-600 text-white text-[11px] font-bold rounded-full hover:scale-105 active:scale-95 transition-all shadow-lg shadow-indigo-500/20">
+            {/* <button className="hidden sm:block px-5 py-2 bg-gradient-to-r from-indigo-600 to-violet-600 text-white text-[11px] font-bold rounded-full hover:scale-105 active:scale-95 transition-all shadow-lg shadow-indigo-500/20">
               HIRE ME ↗
-            </button>
+            </button> */}
           </div>
 
           {/* Desktop Navigation (Visible Only on LG) */}

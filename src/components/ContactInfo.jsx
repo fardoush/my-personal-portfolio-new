@@ -64,7 +64,7 @@ const ContactInfo = () => {
                 <p className="text-xs font-bold text-indigo-600 dark:text-indigo-400 uppercase tracking-widest mb-1">
                   {item.title}
                 </p>
-                <h4 className="text-lg font-bold text-slate-800 dark:text-white mb-1">
+                <h4 className="lg:text-lg md:text-sm text-xs font-bold text-slate-800 dark:text-white mb-1">
                   {item.value}
                 </h4>
                 <p className="text-sm text-slate-500 dark:text-slate-400">
