@@ -29,23 +29,35 @@ const Hero = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row justify-center lg:justify-start gap-4 px-4 sm:px-0">
-            <button className="group px-8 py-4 bg-indigo-600 hover:bg-indigo-700 text-white font-bold rounded-2xl flex items-center justify-center gap-3 transition-all shadow-lg shadow-indigo-600/20 active:scale-95">
+            <a
+              href="#projects"
+              className="group px-8 py-4 bg-indigo-600 hover:bg-indigo-700 text-white font-bold rounded-2xl flex items-center justify-center gap-3 transition-all shadow-lg shadow-indigo-600/20 active:scale-95"
+            >
               VIEW PROJECTS{" "}
               <FaArrowRight className="group-hover:translate-x-1 transition-transform" />
-            </button>
-            <a href="" target="_blank" className="px-8 py-4 border border-gray-300 dark:border-gray-800 hover:border-indigo-500 dark:hover:border-gray-500 font-bold rounded-2xl flex items-center justify-center gap-2 transition-all active:scale-95">
+            </a>
+            <a
+              href="/public/Jahanara Fardoush FED.docx.pdf"
+              target="_blank"
+              className="px-8 py-4 border border-gray-300 dark:border-gray-800 hover:border-indigo-500 dark:hover:border-gray-500 font-bold rounded-2xl flex items-center justify-center gap-2 transition-all active:scale-95"
+            >
               DOWNLOAD CV <FaDownload className="text-sm text-indigo-500" />
             </a>
           </div>
 
           <div className="flex justify-center lg:justify-start gap-6 mt-12 text-gray-400">
             <a
-              href="https://github.com/fardoush" target="_blank"
+              href="https://github.com/fardoush"
+              target="_blank"
               className="hover:text-indigo-600 dark:hover:text-white transition-colors"
             >
               <FaGithub size={24} />
             </a>
-            <a href="https://www.linkedin.com/in/jahanara-fardoush-401193181/"  target="_blank" className="hover:text-indigo-500 transition-colors">
+            <a
+              href="https://www.linkedin.com/in/jahanara-fardoush-401193181/"
+              target="_blank"
+              className="hover:text-indigo-500 transition-colors"
+            >
               <FaLinkedin size={24} />
             </a>
           </div>
