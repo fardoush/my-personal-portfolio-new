@@ -21,7 +21,6 @@ const ProfessionalJourny = () => {
   return (
     <section className="bg-white dark:bg-[#08080a] py-24 px-6 md:px-12 transition-colors duration-700 overflow-hidden">
       <div className="max-w-7xl mx-auto">
-
         {/* start header  */}
         <div className="mb-20">
           <div className="flex items-center gap-4 mb-4">
@@ -34,7 +33,7 @@ const ProfessionalJourny = () => {
             My <span className="text-indigo-500">Resume.</span>
           </h2>
         </div>
-{/* end header  */}
+        {/* end header  */}
         <div className="max-w-4xl mx-auto">
           {/* Tabs */}
           <div className="flex justify-center mb-16">

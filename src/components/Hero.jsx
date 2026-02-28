@@ -33,19 +33,19 @@ const Hero = () => {
               VIEW PROJECTS{" "}
               <FaArrowRight className="group-hover:translate-x-1 transition-transform" />
             </button>
-            <button className="px-8 py-4 border border-gray-300 dark:border-gray-800 hover:border-indigo-500 dark:hover:border-gray-500 font-bold rounded-2xl flex items-center justify-center gap-2 transition-all active:scale-95">
+            <a href="" target="_blank" className="px-8 py-4 border border-gray-300 dark:border-gray-800 hover:border-indigo-500 dark:hover:border-gray-500 font-bold rounded-2xl flex items-center justify-center gap-2 transition-all active:scale-95">
               DOWNLOAD CV <FaDownload className="text-sm text-indigo-500" />
-            </button>
+            </a>
           </div>
 
           <div className="flex justify-center lg:justify-start gap-6 mt-12 text-gray-400">
             <a
-              href="#"
+              href="https://github.com/fardoush" target="_blank"
               className="hover:text-indigo-600 dark:hover:text-white transition-colors"
             >
               <FaGithub size={24} />
             </a>
-            <a href="#" className="hover:text-indigo-500 transition-colors">
+            <a href="https://www.linkedin.com/in/jahanara-fardoush-401193181/"  target="_blank" className="hover:text-indigo-500 transition-colors">
               <FaLinkedin size={24} />
             </a>
           </div>

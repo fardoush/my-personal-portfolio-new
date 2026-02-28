@@ -16,7 +16,7 @@ const ExperienceCard = ({ exp }) => {
   } = exp;
   return (
     <div className="relative group transition-all duration-500">
-      <div className="bg-gray-50 dark:bg-[#111116] border border-gray-200 dark:border-white/5 rounded-[2.5rem]  p-6 md:p-8 lg:p-10 hover:border-indigo-500/40 transition-all shadow-xl ">
+      <div className="bg-gray-50 dark:bg-[#111116] border border-gray-200 dark:border-white/5 rounded-2xl  p-6 md:p-8 lg:p-10 hover:border-indigo-500/40 transition-all shadow-xl ">
         <div className="flex flex-col lg:flex-row justify-between items-start gap-6">
           <div className="flex gap-5 items-start">
             <div className="p-4 bg-indigo-500/10 rounded-2xl border border-indigo-500/10">

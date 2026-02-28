@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import ThemeToggle from "./ThemeToggle";
 import { GoArrowUpRight } from "react-icons/go";
 import { HiMenuAlt3, HiX } from "react-icons/hi";
+import { Link } from "react-router";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -36,12 +37,10 @@ const Header = () => {
           {/* Logo & Hire Button */}
           <div className="flex items-center gap-3 sm:gap-4">
             <div className="group cursor-pointer">
-              {/* <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-xl border-2 border-indigo-500 flex items-center justify-center text-white font-black text-xs sm:text-sm bg-indigo-500 shadow-[0_0_20px_rgba(99,102,241,0.3)] group-hover:rotate-12 transition-all duration-300">
-                JF
-              </div> */}
-              <h2 className=" text-xl md:text-3xl font-black text-slate-900 dark:text-white uppercase tracking-tighter">
-              Jahanara<span className="text-indigo-500">F.</span>
-            </h2>
+             
+              <Link to="/"><h2 className=" text-xl md:text-3xl font-black text-slate-900 dark:text-white uppercase tracking-tighter">
+                Jahanara<span className="text-indigo-500">F.</span>
+              </h2></Link>
             </div>
             {/* <button className="hidden sm:block px-5 py-2 bg-gradient-to-r from-indigo-600 to-violet-600 text-white text-[11px] font-bold rounded-full hover:scale-105 active:scale-95 transition-all shadow-lg shadow-indigo-500/20">
               HIRE ME ↗
@@ -55,7 +54,7 @@ const Header = () => {
                 <li key={link.name} className="relative group">
                   <a
                     href={link.href}
-                    className="text-gray-600 dark:text-gray-400 group-hover:text-indigo-600 dark:group-hover:text-white text-[13px] font-bold transition-colors uppercase tracking-[0.1em]"
+                    className="text-gray-600 dark:text-gray-400 group-hover:text-indigo-600 focus:text-indigo-600 dark:group-hover:text-white text-[13px] font-bold transition-colors uppercase tracking-[0.1em]"
                   >
                     {link.name}
                   </a>
@@ -91,9 +90,9 @@ const Header = () => {
           {/* <span className="text-indigo-600 font-black text-2xl tracking-tighter">
             JF.
           </span> */}
-           <h2 className="text-xl font-black text-slate-900 dark:text-white uppercase tracking-tighter">
-              Jahanara<span className="text-indigo-500">F.</span>
-            </h2>
+          <h2 className="text-xl font-black text-slate-900 dark:text-white uppercase tracking-tighter">
+            Jahanara<span className="text-indigo-500">F.</span>
+          </h2>
           <button
             onClick={() => setIsOpen(false)}
             className="text-gray-800 dark:text-white p-2.5 bg-gray-100 dark:bg-white/5 rounded-full border border-gray-200 dark:border-white/10"
@@ -108,7 +107,7 @@ const Header = () => {
               key={link.name}
               onClick={() => setIsOpen(false)}
               href={link.href}
-              className={`text-3xl sm:text-4xl font-black text-gray-800 dark:text-white hover:text-indigo-600 dark:hover:text-indigo-500 transition-all transform ${
+              className={`text-3xl sm:text-4xl font-black text-gray-800 dark:text-white hover:text-indigo-600 dark:hover:text-indigo-500   focus:text-indigo-600 dark:focus:text-indigo-500 transition-all transform ${
                 isOpen
                   ? "translate-y-0 opacity-100"
                   : "translate-y-10 opacity-0"

@@ -10,13 +10,13 @@ import {
 const contactDetails = [
   {
     icon: <FaEnvelope className="text-indigo-500" size={24} />,
-    title: "Email Me",
+    title: "Email",
     value: "fardoushjahanara@gmail.com",
     label: "Send a message anytime",
   },
   {
     icon: <FaPhoneAlt className="text-purple-500" size={24} />,
-    title: "Call Me",
+    title: "Call",
     value: "+880 1923 134484",
     label: "9am - 10pm",
   },
@@ -36,46 +36,60 @@ const contactDetails = [
 
 const ContactInfo = () => {
   return (
-    <div className="bg-white dark:bg-[#0a0a0c] pt-24 pb-12 px-4 md:px-12 border-t border-slate-100 dark:border-slate-900 transition-colors duration-300">
-      {" "}
+    <section className="py-24 px-4 md:px-12 bg-white dark:bg-[#0a0a0c] transition-colors duration-300">
       <div className="max-w-7xl mx-auto">
+        {/* Header */}
         <div className="mb-16">
           <div className="flex items-center gap-4 mb-4">
             <span className="h-[2px] w-12 bg-indigo-500"></span>
             <span className="text-indigo-600 dark:text-indigo-400 font-bold tracking-[0.3em] uppercase text-xs">
-              contact us
+              What I Offer
             </span>
           </div>
           <h2 className="text-5xl md:text-7xl font-black text-slate-900 dark:text-white uppercase tracking-tighter">
-            Contact <span className="text-indigo-500">Info.</span>
+            My <span className="text-indigo-500">contacts.</span>
           </h2>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-16">
-          {contactDetails.map((item, index) => (
+
+        {/* contacts Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          {contactDetails.map((contact, index) => (
             <motion.div
               key={index}
-              whileHover={{ y: -5 }}
-              className="p-6 rounded-3xl bg-slate-50 dark:bg-[#121217] border border-slate-200 dark:border-slate-800 flex items-start gap-5 transition-colors duration-300"
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: index * 0.1 }}
+              className="group relative p-8 rounded-2xl bg-slate-50 dark:bg-[#121217] border border-slate-200 dark:border-slate-800 hover:border-indigo-500/50 transition-all duration-500"
             >
-              <div className="p-4 bg-white dark:bg-[#1c1c24] rounded-2xl shadow-sm border border-slate-100 dark:border-slate-800">
-                {item.icon}
+              <div className="flex justify-between items-start mb-6">
+                <div className="p-4 bg-white dark:bg-[#1c1c24] rounded-2xl shadow-sm group-hover:scale-110 transition-transform duration-500">
+                  {contact.icon}
+                </div>
+                <span className="text-[10px] font-black uppercase tracking-widest text-indigo-600 dark:text-indigo-400 uppercase border border-slate-200 dark:border-slate-700 px-3 py-1 rounded-full">
+                  {contact.title}
+                </span>
               </div>
-              <div>
-                <p className="text-xs font-bold text-indigo-600 dark:text-indigo-400 uppercase tracking-widest mb-1">
-                  {item.title}
-                </p>
-                <h4 className="lg:text-lg md:text-sm text-xs font-bold text-slate-800 dark:text-white mb-1">
-                  {item.value}
+
+              <h4 className="lg:text-lg md:text-sm text-xs font-bold text-slate-800 dark:text-white mb-1">
+                  {contact.value}
                 </h4>
-                <p className="text-sm text-slate-500 dark:text-slate-400">
-                  {item.label}
+
+               <p className="text-sm text-slate-500 dark:text-slate-400">
+                  {contact.label}
                 </p>
+
+              {/* Decorative Corner */}
+              <div className="absolute bottom-6 right-8 opacity-0 group-hover:opacity-100 transition-opacity">
+                <div className="w-8 h-8 rounded-full bg-indigo-500/10 flex items-center justify-center">
+                  <div className="w-2 h-2 rounded-full bg-indigo-500 animate-ping"></div>
+                </div>
               </div>
             </motion.div>
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

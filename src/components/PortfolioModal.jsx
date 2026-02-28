@@ -13,17 +13,15 @@ const PortfolioModal = ({ project, onClose }) => {
       ></div>
 
       {/* Modal Container */}
-      <div className="relative bg-white dark:bg-[#16161e] w-full max-w-3xl rounded-[2.5rem] overflow-hidden border border-slate-200 dark:border-slate-800 shadow-2xl animate-in fade-in zoom-in duration-300 max-h-[90vh] flex flex-col">
-        
+      <div className="relative bg-white dark:bg-[#16161e] w-full max-w-3xl rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-800 shadow-2xl animate-in fade-in zoom-in duration-300 max-h-[90vh] flex flex-col">
         {/* Scrollable Content Area */}
         <div className="overflow-y-auto custom-scrollbar">
-          
           {/* Image Section */}
           <div className="relative h-64 md:h-80 shrink-0">
             <img src={img} className="w-full h-full object-cover" alt={title} />
             <button
               onClick={onClose}
-              className="absolute top-6 right-6 p-3 bg-white/20 dark:bg-black/40 hover:bg-red-500 backdrop-blur-md text-white rounded-full transition-colors z-10"
+              className="absolute top-6 right-6 p-3 bg-gray-300 dark:bg-black/40 hover:bg-red-500 backdrop-blur-md  text-white rounded-full transition-colors z-10"
             >
               <FaTimes size={20} />
             </button>

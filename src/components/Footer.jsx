@@ -6,12 +6,21 @@ import {
   FaInstagram,
   FaArrowUp,
 } from "react-icons/fa";
+import { Link } from "react-router";
 
 const Footer = () => {
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
+  // const link = <>
+  // <Link to="/" className="hover:text-indigo-500 transition-colors">Home</Link>
+  // <Link to="about" className="hover:text-indigo-500 transition-colors">About</Link>
+  // <Link to="projects" className="hover:text-indigo-500 transition-colors">Projects</Link>
+  // <Link to="skills" className="hover:text-indigo-500 transition-colors">Skills</Link>
+  // <Link to="" className="hover:text-indigo-500 transition-colors">Resume</Link>
+  
+  // </>
   return (
     <footer className="bg-white dark:bg-[#0a0a0c] border-t border-slate-100 dark:border-slate-900 pt-16 pb-8 px-4 md:px-12 transition-colors duration-300">
       <div className="max-w-7xl mx-auto">
@@ -30,12 +39,12 @@ const Footer = () => {
 
           <div className="flex flex-wrap gap-4">
             {[
-              { icon: <FaGithub />, link: "#", label: "Github" },
-              { icon: <FaLinkedinIn />, link: "#", label: "LinkedIn" },
-              { icon: <FaTwitter />, link: "#", label: "Twitter" },
+              { icon: <FaGithub />, link: "https://github.com/fardoush", label: "Github" },
+              { icon: <FaLinkedinIn />, link: "https://www.linkedin.com/in/jahanara-fardoush-401193181/", label: "LinkedIn" },
+              { icon: <FaTwitter />, link: "https://x.com/fardosuh", label: "Twitter" },
               { icon: <FaInstagram />, link: "#", label: "Instagram" },
             ].map((social, i) => (
-              <a
+              <a target="_blank"
                 key={i}
                 href={social.link}
                 aria-label={social.label}
@@ -54,18 +63,14 @@ const Footer = () => {
               Navigation
             </h4>
             <ul className="space-y-2 text-slate-600 dark:text-slate-400 text-sm font-medium">
+
               <li>
-                <a href="#" className="hover:text-indigo-500 transition-colors">
-                  Home
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-indigo-500 transition-colors">
+                <a href="projects" className="hover:text-indigo-500 transition-colors">
                   Projects
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-indigo-500 transition-colors">
+                <a href="services" className="hover:text-indigo-500 transition-colors">
                   Services
                 </a>
               </li>
@@ -77,19 +82,19 @@ const Footer = () => {
             </h4>
             <ul className="space-y-2 text-slate-600 dark:text-slate-400 text-sm font-medium">
               <li>
-                <a href="#" className="hover:text-indigo-500 transition-colors">
+                <Link to="resume" className="hover:text-indigo-500 transition-colors">
                   Resume
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="hover:text-indigo-500 transition-colors">
-                  Blog
-                </a>
+                <Link to="about" className="hover:text-indigo-500 transition-colors">
+                  About
+                </Link>
               </li>
               <li>
-                <a href="#" className="hover:text-indigo-500 transition-colors">
+                <Link to="skills" className="hover:text-indigo-500 transition-colors">
                   Tech Stack
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

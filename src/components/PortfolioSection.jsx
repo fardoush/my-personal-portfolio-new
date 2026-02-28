@@ -7,7 +7,7 @@ const PortfolioSection = () => {
   const [activeTab, setActiveTab] = useState("All");
   const [selectedProject, setSelectedProject] = useState(null);
 
-  const categories = ["All", "Web App", "React App", "Backend"];
+  const categories = ["All", "React App", "Backend", "Other"];
 
   useEffect(() => {
     fetch("/portfolio.json")
@@ -16,14 +16,14 @@ const PortfolioSection = () => {
       .catch((err) => console.error("Error loading portfolio:", err));
   }, []);
 
-  const filteredProjects = activeTab === "All" 
-    ? projects 
-    : projects.filter((p) => p.category === activeTab);
+  const filteredProjects =
+    activeTab === "All"
+      ? projects
+      : projects.filter((p) => p.category === activeTab);
 
   return (
     <section className="min-h-screen bg-white dark:bg-[#08080a] text-slate-900 dark:text-white py-20 px-4 md:px-12 transition-colors duration-300">
       <div className="max-w-7xl mx-auto">
-        
         {/* Header */}
         <div className="mb-16">
           <div className="flex items-center gap-4 mb-4">

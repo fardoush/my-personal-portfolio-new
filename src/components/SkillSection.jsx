@@ -16,7 +16,7 @@ import {
   SiExpress,
 } from "react-icons/si";
 import { VscCode } from "react-icons/vsc";
-import Skills from "./Skills"; // নিশ্চিত করুন পাথ ঠিক আছে
+import Skills from "./Skills";
 
 const SkillSection = () => {
   const skillsData = [

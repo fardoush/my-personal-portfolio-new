@@ -35,6 +35,9 @@ function App() {
             </p>
           </div>
         </div>
+         {/* <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-xl border-2 border-indigo-500 flex items-center justify-center text-white font-black text-xs sm:text-sm bg-indigo-500 shadow-[0_0_20px_rgba(99,102,241,0.3)] group-hover:rotate-12 transition-all duration-300">
+                JF
+              </div> */}
     </>
   )
 }

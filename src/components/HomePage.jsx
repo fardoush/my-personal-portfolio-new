@@ -12,14 +12,25 @@ const HomePage = () => {
   return (
     <div>
       <Hero />
-       <div id="about"><About /></div>
-       <div id="skills"><SkillSection /></div>
-       <div id="projects"><PortfolioSection/></div>
-       <div id="resume"><ProfessionalJourny/></div>
+      <div id="about">
+        <About />
+      </div>
+      <div id="skills">
+        <SkillSection />
+      </div>
+      <div id="projects">
+        <PortfolioSection />
+      </div>
+      <div id="resume">
+        <ProfessionalJourny />
+      </div>
       {/* <Projects/> */}
-      <div id="service"><ServicesSection/></div>
-      <div id="contact"><ContactInfo/></div>
-     
+      <div id="service">
+        <ServicesSection />
+      </div>
+      <div id="contact">
+        <ContactInfo />
+      </div>
     </div>
   );
 };
