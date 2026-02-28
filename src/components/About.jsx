@@ -69,7 +69,7 @@ const About = () => {
       "https://i.ibb.co.com/Pzghn0kL/597360935-2289533001558111-7439562014991189627-n.jpg",
   };
   return (
-    <section className="bg-white dark:bg-[#08080a] lg:py-20 md:py-12 py-5 px-6 md:px-12 overflow-hidden transition-colors duration-700">
+    <section className="bg-white dark:bg-[#08080a] lg:py-20 md:py-12 py-6 px-6 md:px-12 overflow-hidden transition-colors duration-700">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           {/* left side Image  */}

@@ -116,7 +116,7 @@ const SkillSection = () => {
   return (
     <section
       id="skills"
-      className="lg:py-20 md:py-12 py-5 bg-white dark:bg-[#08080a] transition-colors duration-700 relative overflow-hidden"
+      className="lg:py-20 md:py-12 py-6 bg-white dark:bg-[#08080a] transition-colors duration-700 relative overflow-hidden"
     >
       {/* Subtle Background Decorations */}
       <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-indigo-600/5 blur-[120px] rounded-full -z-10"></div>

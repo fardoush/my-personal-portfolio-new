@@ -31,7 +31,7 @@ const services = [
 
 const ServicesSection = () => {
   return (
-    <section className="lg:py-20 md:py-12 py-5 px-4 md:px-12 bg-white dark:bg-[#0a0a0c] transition-colors duration-300">
+    <section className="lg:py-20 md:py-12 py-6 px-4 md:px-12 bg-white dark:bg-[#0a0a0c] transition-colors duration-300">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="mb-16">
