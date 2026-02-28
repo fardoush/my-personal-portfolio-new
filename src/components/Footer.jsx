@@ -25,15 +25,15 @@ const Footer = () => {
     <footer className="bg-white dark:bg-[#0a0a0c] border-t border-slate-100 dark:border-slate-900 pt-16 pb-8 px-4 md:px-12 transition-colors duration-300">
       <div className="max-w-7xl mx-auto">
         {/* Top Part: Branding & Links */}
-        <div className="flex flex-col md:flex-row justify-between  items-center gap-8 mb-12">
-          <div className="max-w-xs">
+        <div className="flex flex-col md:flex-row justify-between items-center gap-8 mb-12">
+          <div className="max-w-xs flex flex-col md:items-start items-center justify-center">
             <Link
               to="/"
               className="text-3xl font-black text-slate-900 dark:text-white uppercase tracking-tighter mb-4"
             >
               Jahanara<span className="text-indigo-500">F.</span>
             </Link>
-            <p className="text-slate-500 dark:text-slate-400 text-sm leading-relaxed mt-6">
+            <p className="text-slate-500 dark:text-slate-400 text-sm leading-relaxed mt-2 md:text-start text-center">
               Modern Full-stack developer specialized in building sleek,
               high-performance web applications. Let's create something
               meaningful together.

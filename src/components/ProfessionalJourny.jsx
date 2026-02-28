@@ -19,7 +19,7 @@ const ProfessionalJourny = () => {
   }, []);
 
   return (
-    <section className="bg-white dark:bg-[#08080a] lg:py-20 md:py-12 py-8 px-6 md:px-12 transition-colors duration-700 overflow-hidden">
+    <section className="bg-white dark:bg-[#08080a] lg:py-20 md:py-12 py-5 px-6 md:px-12 transition-colors duration-700 overflow-hidden">
       <div className="max-w-7xl mx-auto">
         {/* start header  */}
         <div className="mb-20">

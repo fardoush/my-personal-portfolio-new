@@ -30,7 +30,7 @@ const Projects = () => {
   return (
     <section
       id="works"
-      className="lg:py-20 md:py-12 py-8 bg-white dark:bg-[#08080a] transition-colors duration-700"
+      className="lg:py-20 md:py-12 py-5 bg-white dark:bg-[#08080a] transition-colors duration-700"
     >
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         {/* Header Section */}
