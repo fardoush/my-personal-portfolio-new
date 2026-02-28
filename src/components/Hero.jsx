@@ -37,7 +37,7 @@ const Hero = () => {
               <FaArrowRight className="group-hover:translate-x-1 transition-transform" />
             </a>
             <a
-              href="/public/Jahanara Fardoush FED.docx.pdf"
+              href="/Jahanara Fardoush FED.docx.pdf"
               target="_blank"
               className="px-8 py-4 border border-gray-300 dark:border-gray-800 hover:border-indigo-500 dark:hover:border-gray-500 font-bold rounded-2xl flex items-center justify-center gap-2 transition-all active:scale-95"
             >

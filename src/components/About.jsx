@@ -140,7 +140,7 @@ const About = () => {
             {/* Buttons Section */}
             <div className="flex flex-wrap gap-4 justify-center lg:justify-start mt-4">
               {/* Download CV Button */}
-              <a href="/public/Jahanara Fardoush FED.docx.pdf" target="_blank" className="flex items-center gap-3 px-8 py-4 bg-indigo-600 hover:bg-indigo-700 text-white font-bold rounded-2xl transition-all shadow-lg shadow-indigo-600/30 active:scale-95 group border-none">
+              <a href="/Jahanara Fardoush FED.docx.pdf" target="_blank" className="flex items-center gap-3 px-8 py-4 bg-indigo-600 hover:bg-indigo-700 text-white font-bold rounded-2xl transition-all shadow-lg shadow-indigo-600/30 active:scale-95 group border-none">
                 Download CV{" "}
                 <FaDownload className="group-hover:translate-y-1 transition-transform" />
               </a>
