@@ -25,7 +25,7 @@ const Footer = () => {
     <footer className="bg-white dark:bg-[#0a0a0c] border-t border-slate-100 dark:border-slate-900 pt-16 pb-8 px-4 md:px-12 transition-colors duration-300">
       <div className="max-w-7xl mx-auto">
         {/* Top Part: Branding & Links */}
-        <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-8 mb-12">
+        <div className="flex flex-col md:flex-row justify-between  items-center gap-8 mb-12">
           <div className="max-w-xs">
             <Link
               to="/"

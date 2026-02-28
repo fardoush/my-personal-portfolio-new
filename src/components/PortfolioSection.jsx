@@ -22,7 +22,7 @@ const PortfolioSection = () => {
       : projects.filter((p) => p.category === activeTab);
 
   return (
-    <section className="min-h-screen bg-white dark:bg-[#08080a] text-slate-900 dark:text-white py-20 px-4 md:px-12 transition-colors duration-300">
+    <section className="min-h-screen bg-white dark:bg-[#08080a] text-slate-900 dark:text-white lg:py-20 md:py-12 py-8 px-4 md:px-12 transition-colors duration-300">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="mb-16">

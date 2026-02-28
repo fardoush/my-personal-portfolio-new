@@ -36,7 +36,7 @@ const contactDetails = [
 
 const ContactInfo = () => {
   return (
-    <section className="py-24 px-4 md:px-12 bg-white dark:bg-[#0a0a0c] transition-colors duration-300">
+    <section className="lg:py-20 md:py-12 py-8 px-4 md:px-12 bg-white dark:bg-[#0a0a0c] transition-colors duration-300">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="mb-16">
