@@ -1,6 +1,7 @@
-# React + Vite
+# My Personal React Portfolio 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Live Link
+https://chipper-starlight-f9e4e0.netlify.app/
 
 Currently, two official plugins are available:
 
