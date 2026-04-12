@@ -14,6 +14,7 @@ import {
   SiFirebase,
   SiMysql,
   SiExpress,
+  SiTypescript,
 } from "react-icons/si";
 import { VscCode } from "react-icons/vsc";
 import Skills from "./Skills";
@@ -80,6 +81,13 @@ const SkillSection = () => {
       name: "MongoDB",
       icon: <SiMongodb />,
       level: "Learning",
+      color: "text-green-600",
+      shadow: "hover:shadow-green-600/10",
+    },
+    {
+      name: "TypeScript",
+      icon: <SiTypescript />,
+      level: "Next Learning",
       color: "text-green-600",
       shadow: "hover:shadow-green-600/10",
     },

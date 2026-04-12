@@ -3,10 +3,11 @@ import Hero from "./Hero";
 import SkillSection from "./SkillSection";
 import About from "./About";
 // import Projects from "./Projects";
-import PortfolioSection from "./PortfolioSection";
+// import PortfolioSection from "./PortfolioSection";
 import ServicesSection from "./ServiceSection";
 import ContactInfo from "./ContactInfo";
 import ProfessionalJourny from "./ProfessionalJourny";
+import PortfolioSections from "./PortfolioSections";
 
 const HomePage = () => {
   return (
@@ -19,7 +20,8 @@ const HomePage = () => {
         <SkillSection />
       </div>
       <div id="projects">
-        <PortfolioSection />
+        {/* <PortfolioSection /> */}
+        <PortfolioSections/>
       </div>
       <div id="resume">
         <ProfessionalJourny />
