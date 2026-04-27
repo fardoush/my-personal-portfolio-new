@@ -7,6 +7,7 @@ import {
   FaNodeJs,
   FaGitAlt,
   FaFigma,
+  FaWordpress,
 } from "react-icons/fa";
 import {
   SiTailwindcss,
@@ -41,6 +42,13 @@ const SkillSection = () => {
       level: "Intermediate",
       color: "text-yellow-400",
       shadow: "hover:shadow-yellow-400/10",
+    },
+    {
+      name: "Wordpress",
+      icon: <FaWordpress/>,
+      level: "Intermediate",
+      color: "text-blue-400",
+      shadow: "hover:shadow-blue-400/10",
     },
     {
       name: "React",
@@ -87,7 +95,7 @@ const SkillSection = () => {
     {
       name: "TypeScript",
       icon: <SiTypescript />,
-      level: "Next Learning",
+      level: "Next npm run devLearning",
       color: "text-green-600",
       shadow: "hover:shadow-green-600/10",
     },

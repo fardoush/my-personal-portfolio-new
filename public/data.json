@@ -5,7 +5,7 @@
       "role": "Software Engineer",
       "company": "OrangeToolz",
       "location": "Uttara, Dhaka",
-      "duration": "Nov 2022 - DEC 2025",
+      "duration": "Nov 2022",
       "type": "Full-time",
       "description": "",
       "achievements": [
@@ -30,6 +30,7 @@
       ],
       "skills": ["HTML", "CSS3", "Bootstrap", "Javascript", "JQuery","React"]
     }
+  
   ],
   "education": [
     {
